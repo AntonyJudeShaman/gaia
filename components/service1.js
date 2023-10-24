@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Service1 = () => {
   return (
@@ -16,7 +16,7 @@ const Service1 = () => {
       <p>
         The collected data is crucial for site characterization, geological mapping, and risk
         assessment. Trial pits allow us to document soil layers, their depths, and any anomalies.
-        Additionally, they provide insights into the groundwater table's depth, which plays a
+        Additionally, they provide insights into the groundwater table&apos;s depth, which plays a
         significant role in foundation design and excavation planning.
       </p>
       <p>
@@ -33,7 +33,7 @@ const Service1 = () => {
       </p>
       <p>
         When dealing with cohesive soils like clays, we employ rotary drilling techniques, which
-        allow us to penetrate and extract samples without disturbing the soil's natural structure.
+        allow us to penetrate and extract samples without disturbing the soil&apos;s natural structure.
         This method ensures that the samples accurately represent the in-situ conditions.
       </p>
       <p>
@@ -43,7 +43,7 @@ const Service1 = () => {
       </p>
       <p>
         When encountering rock formations, we employ specialized techniques such as core drilling
-        to recover intact rock cores. These cores provide valuable information about the rock's
+        to recover intact rock cores. These cores provide valuable information about the rock&apos;s
         strength, composition, and suitability for various engineering applications.
       </p>
       <p>
@@ -57,13 +57,13 @@ const Service1 = () => {
       <p>
         Undisturbed sampling is a precise and meticulous process used to extract soil samples
         without altering their natural state. This method is particularly crucial when working
-        with cohesive soils like clays, where preserving the soil's integrity is paramount for
+        with cohesive soils like clays, where preserving the soil&apos;s integrity is paramount for
         accurate testing.
       </p>
       <p>
         Our experienced team employs advanced sampling tools and techniques to ensure that the
         samples we collect maintain their native structure and properties. The slightest
-        disturbance can impact the soil's behavior, especially its strength and consolidation
+        disturbance can impact the soil&apos;s behavior, especially its strength and consolidation
         properties.
       </p>
       <p>
@@ -84,12 +84,12 @@ const Service1 = () => {
         properties of soil at various depths. During the SPT, a sample tube is driven into the
         ground, and the number of blows required to drive the tube a specified distance is
         recorded. This number, known as the SPT N-value, provides information about the
-        soil's resistance to penetration, which is crucial for foundation design and
+        soil&apos;s resistance to penetration, which is crucial for foundation design and
         settlement analysis.
         </p>
         <p>
         The SPT is often used in conjunction with other geotechnical tests to determine soil
-        properties such as cohesion, friction angle, and shear strength. It's a valuable tool
+        properties such as cohesion, friction angle, and shear strength. It&apos;s a valuable tool
         for assessing the engineering behavior of soil in diverse geological conditions.
         </p>
 
@@ -97,7 +97,7 @@ const Service1 = () => {
         <p>
         The Cone Penetration Test (CPT) is another method used for soil investigation. It
         involves pushing a cone-shaped penetrometer into the ground at a constant rate while
-        measuring resistance. The data collected from the CPT provides insights into the soil's
+        measuring resistance. The data collected from the CPT provides insights into the soil&apos;s
         properties, including its bearing capacity, shear strength, and stratigraphy.
         </p>
         <p>
@@ -110,7 +110,7 @@ const Service1 = () => {
         <p>
         The Field California Bearing Ratio (CBR) test assesses the strength of the soil subgrade.
         It involves measuring the pressure required to penetrate a soil sample with a plunger
-        under controlled conditions. The CBR value indicates the soil's ability to support
+        under controlled conditions. The CBR value indicates the soil&apos;s ability to support
         loads, making it a vital parameter for pavement design and road construction.
         </p>
         <p>
@@ -147,8 +147,8 @@ const Service1 = () => {
         <h2>Plate Load Test</h2>
         <p>
         The Plate Load Test assesses the bearing capacity of the soil beneath a foundation or
-        structure. It involves applying a known load to a plate placed on the ground's surface
-        and measuring the settlement. The data collected is used to evaluate the soil's
+        structure. It involves applying a known load to a plate placed on the ground&apos;s surface
+        and measuring the settlement. The data collected is used to evaluate the soil&apos;s
         bearing capacity and its ability to support the anticipated loads.
         </p>
         <p>
@@ -175,7 +175,7 @@ const Service1 = () => {
         The Block Vibration Test evaluates the response of soil and structures to vibrations.
         It is particularly relevant in areas near heavy machinery, transportation routes, or
         seismic zones. The test involves applying controlled vibrations and measuring the soil
-        and structure's dynamic response.
+        and structure&apos;s dynamic response.
         </p>
         <p>
         Data from Block Vibration Tests is essential for understanding the impact of vibrations

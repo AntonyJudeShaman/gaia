@@ -6,7 +6,7 @@ import Tilt from "react-parallax-tilt";
 import { MainNavItem } from "types";
 import { Icons } from "@/components/icons";
 import { MobileNav } from "@/components/mobile-nav";
-import { HomePage } from "config/marketing
+import { HomePage } from "config/marketing"
 import { cn } from "@/lib/utils";
 
 interface MainNavProps {

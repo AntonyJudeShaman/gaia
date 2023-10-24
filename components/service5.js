@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Service5 = () => {
   return (
@@ -7,7 +7,7 @@ const Service5 = () => {
       <p>
         Geophysical surveys play a crucial role in various applications, providing valuable insights
         into subsurface conditions and geological features. These surveys help in characterizing the
-        earth's structure and are used in a wide range of fields. Some of the key applications include:
+        earth&apos;s structure and are used in a wide range of fields. Some of the key applications include:
       </p>
 
       <h2>Seismic Site Characterization</h2>
@@ -79,7 +79,7 @@ const Service5 = () => {
 
       <h2>Estimation of Dynamic Soil Parameters</h2>
       <p>
-        Geophysical surveys help estimate dynamic soil parameters, including Poisson Ratio, Young's
+        Geophysical surveys help estimate dynamic soil parameters, including Poisson Ratio, Young&apos;s
         Modulus, Bulk Modulus, and Shear Modulus. These parameters are crucial for analyzing soil
         behavior under dynamic loads, such as those from machinery or seismic events.
       </p>
