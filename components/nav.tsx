@@ -30,7 +30,7 @@ const Nav = () => {
       transition={{ duration: 1, delay: 0.25 }}
       className="flex flex-col items-center p-8 lg:justify-center gap-y-4 md:fixed sticky bottom-0 mt-auto z-50 w-full lg:w-16 lg:max-w-md lg:h-screen"
     >
-      <div className="flex md:ml-20 ml:0 lg:flex-col gap-8 bg-background border-2 border-indigo-600 p-4 justify-center items-center text-2xl rounded-full">
+      <div className="flex md:ml-20 ml:0 lg:flex-col gap-8 bg-zinc-950 border-2 border-indigo-600 p-4 justify-center items-center text-2xl rounded-full">
         {links.map((link, index) => {
           return (
             <Link
@@ -47,7 +47,7 @@ const Nav = () => {
                 </div>
                 <div className="top-1 border-solid border-r-white border-r-8 border-y-transparent ml-2 border-y-8 border-l-0 absolute -left-1"></div>
               </div>
-              <div className="text-indigo-200 hover:text-blue-300">{link.icon}</div>
+              <div className="text-indigo-50 hover:text-blue-200">{link.icon}</div>
             </Link>
           );
         })}
