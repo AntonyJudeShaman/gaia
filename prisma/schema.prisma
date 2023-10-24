@@ -18,13 +18,38 @@ generator client {
 }
 
 datasource db {
-  provider     = "mysql"
-  url          = env("DATABASE_URL")
-  relationMode = "prisma"
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL")
+  directUrl = env("POSTGRES_URL_NON_POOLING")
 }
 
 model User {
   id       Int    @id @default(autoincrement())
   email    String @unique
   password String
+}
+
+model Project {
+  projectId      String   @id @default(cuid())
+  projectName    String
+  projectNumber  Int
+  description1   String
+  description2   String?
+  description3   String?
+  description4   String?
+  description5   String?
+  image1         String?
+  image2         String?
+  image3         String?
+  image4         String?
+  image5         String?
+  image6         String?
+  image7         String?
+  image8         String?
+  image9         String?
+  image10        String?
+  testimonial    String?
+  testimonialPic String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @default(now())
 }
