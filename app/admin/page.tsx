@@ -3,7 +3,7 @@ import { Metadata } from "next";
 import Nav from "@/components/nav";
 import { MainNav } from "@/components/main-nav";
 import { SiteFooter } from "@/components/site-footer";
-import { marketingConfig } from "config/marketing
+import { marketingConfig } from "config/marketing"
 import SignOut from "@/components/sign-out";
 
 export const metadata: Metadata = {

@@ -21,6 +21,7 @@
     "clsx": "^2.0.0",
     "cors": "^2.8.5",
     "emailjs-com": "^3.2.0",
+    "firebase": "^10.5.0",
     "formidable": "^3.5.1",
     "framer-motion": "^10.16.4",
     "lucide-react": "^0.279.0",
@@ -39,6 +40,7 @@
     "react-parallax-tilt": "^1.7.167",
     "react-search-box": "^3.0.0",
     "react-select": "^5.7.4",
+    "swiper": "^11.0.0",
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.7",
     "web-vitals": "^3.5.0"

@@ -22,9 +22,9 @@ export const metadata: Metadata = {
 export default function HomeLayout() {
   return (
     <>
-      <div className="flex min-h-screen flex-col ">
+      <div className="flex min-h-screen pl-4 pr-4 p-2 flex-col ">
       
-        <header className="container z-40 bg-background">
+        <header className="container  z-40 bg-background text-white border-2 border-blue-500 custom-rounded-bottom">
           <div className="flex h-20 items-center justify-between py-6">
             <MainNav items={marketingConfig.mainNav} />
             <nav>
@@ -50,7 +50,7 @@ export default function HomeLayout() {
         <IndexPage />
         
         <Aboutus />
-        {/* <Nav /> */}
+        <Nav />
         <SiteFooter />
       </div>
     </>

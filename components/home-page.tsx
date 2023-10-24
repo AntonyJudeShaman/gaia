@@ -20,11 +20,11 @@ export default function IndexPage() {
         className="h-100 mt-40  space-y-6 pb-8 pt-6 md:pb-12 md:mt-6  lg:py-32"
         style={{ minHeight: "100vh" }}
       >
-        <div className="container text-wrapper flex max-w-[64rem] flex-col items-center gap-4 text-center">
+        <div className="container logo-font text-6xl text-wrapper font-heading flex max-w-[64rem] flex-col items-center gap-4 text-center">
           {/* <h1 className="font-semibold ">
             <Image src={logo} alt="Jude" className="h-15 w-20" />
           </h1> */}
-          GAIA
+          GAIA GEOSCIENCE PVT LTD
           </div>
       </motion.section>
     </div>

@@ -7,6 +7,12 @@
   src: url("../assets/fonts/Bauhaus\ 93\ Regular.ttf") format("woff2");
 }
 
+.custom-rounded-bottom {
+  border-bottom-left-radius: 39px; 
+  border-bottom-right-radius: 39px;
+}
+
+
 .logo-font {
   font-family: "CustomFont";
 }

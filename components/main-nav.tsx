@@ -24,19 +24,19 @@ export function MainNav({ items, children }: MainNavProps) {
 
   return (
     <div className="flex gap-6 md:gap-10">
-      <Link href="/" className="hidden items-center space-x-2 md:flex" aria-label="logo">
+      <Link href="/" className="hidden  items-center space-x-2 md:flex" aria-label="logo">
         <span className="hidden logo-font text-4xl display-animation2 font-bold sm:inline-block">
           <Tilt className="logo-font">GAIA</Tilt>
         </span>
       </Link>
-      <nav className="flex text-sm ">
+      <nav className="flex text-sm custom-rounded-bottom">
         {items && items.map((item, index) => (
           <Link
             key={index}
             aria-label="navbar items"
             href={item.disabled ? "#" : item.href}
             className={cn(
-              "flex items-center hidden md:inline-block rounded-md p-2 text-sm font-medium hover:underline",
+              "flex items-center hidden mr-4 text-xl md:inline-block rounded-md p-2 text-sm font-medium hover:underline",
               item.disabled && "cursor-not-allowed opacity-60"
             )}
           >
