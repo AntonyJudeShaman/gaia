@@ -8,7 +8,6 @@ import { SiteFooter } from "@/components/site-footer";
 import IndexPage from "@/components/home-page";
 import Nav from "@/components/nav";
 import Aboutus from "@/components/about-us";
-import Particles from "@/components/particles";
 import { Metadata } from "next";
 
 interface MarketingLayoutProps {

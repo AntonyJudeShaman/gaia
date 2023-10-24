@@ -1,6 +1,5 @@
 "use client";
 import { LightBox } from "./light-box";
-import Particles from "./particles";
 import { motion, useScroll } from "framer-motion";
 import { Metadata } from "next";
 
