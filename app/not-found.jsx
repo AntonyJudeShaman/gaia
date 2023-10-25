@@ -18,14 +18,15 @@ export default function NotFound() {
         changed, or is temporarily unavailable.
       </p>
       <div className="text-center mt-3">
+        <Link href="/">
         <Button
-          href="/"
           size="lg"
           aria-label="go back to homepage"
           className="border-black bg-gradient-to-b from-green-500 to-blue-600 hover:to-green-500 hover:from-blue-600 text-white hover:bg-white hover:text-black"
         >
           Go To Homepage
         </Button>
+        </Link>
       </div>
     </div>
   );
