@@ -142,6 +142,6 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
   daisyui: {
-    themes: ["luxury", "synthwave", "retro", "forest", "night", "cupcake"],
+    themes: ["luxury", "synthwave", "corporate", "forest", "night", "cupcake"],
   },
 };

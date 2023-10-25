@@ -15,12 +15,15 @@ export const metadata: Metadata = {
 function page() {
   return (
     <div
-        className="min-h-screen  py-8 animate-fade-in"
+        className="min-h-screen bg-white  animate-fade-in"
       >
       
-        <div className="md:ml-20 ml-10">
-          <MainNav items={marketingConfig.mainNav} />
-        </div>
+      <header className="container  z-40 bg-zinc-950 text-white border-2 border-blue-500 custom-rounded-bottom">
+          <div className="flex h-20 items-center justify-between py-6">
+            <MainNav items={marketingConfig.mainNav} />
+            
+          </div>
+        </header>
         <Nav />
         <p className="text-5xl font-heading font-semibold t mb-8 mt-10 text-center ">
           Contact Us

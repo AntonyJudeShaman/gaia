@@ -41,18 +41,18 @@ const fallbackStyle = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" suppressHydrationWarning={true} data-theme="cupcake">
-      <head />
+    <html lang="en" suppressHydrationWarning={true} data-theme="corporate">
+      
       <body
         className={cn(
-          "min-h-screen bg-white text-black scroll-smooth font-sans antialiased",
+          "min-h-screen bg-foreground text-black scroll-smooth font-sans antialiased",
           fontSans.variable,
           fontHeading.variable,
           titleHeading.variable
         )}
       >
         <Suspense fallback={<div style={fallbackStyle}>Loading...</div>}>
-          <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+          <ThemeProvider attribute="class"  enableSystem>
             {children}
             <Analytics />
             <Toaster />

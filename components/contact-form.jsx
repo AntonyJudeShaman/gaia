@@ -100,11 +100,11 @@ export function Contactform({ className }) {
   };
 
   return (
-    <div className="mx-auto max-w-lg form-container " aria-label="contact form">
+    <div className="mx-auto max-w-lg form-container bg-gray-900" aria-label="contact form">
       <form
         ref={form}
         onSubmit={handleSubmit}
-        className={cn("space-x-4 md:-mt-4 sm:pt-10", className)}
+        className={cn("space-x-4 md:-mt-4 sm:pt-10 ", className)}
         style={{
           maxWidth: "100%",
           margin: "0 auto",
@@ -231,7 +231,7 @@ export function Contactform({ className }) {
             <Button
               aria-label="submit contact form"
               type="submit"
-              className="w-full w-30 mt-2 border border-green-300 bg-gradient-to-bl from-pink-500 to-purple-700 hover:to-pink-500 hover:from-purple-600"
+              className="w-full w-30 mt-2 border border-zinc-900 bg-gradient-to-b from-pink-500 to-purple-700 hover:to-pink-500 hover:from-purple-600"
               disabled={loading}
             >
               {loading ? <LoadingDots color="red" /> : "Submit"}

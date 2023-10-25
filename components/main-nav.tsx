@@ -29,7 +29,8 @@ export function MainNav({ items, children }: MainNavProps) {
           <Tilt className="logo-font">GAIA</Tilt>
         </span>
       </Link>
-      <nav className="flex text-sm custom-rounded-bottom">
+      {/* <div className="flex justify-end float-right text-right"> */}
+      <nav className="flex text-sm  custom-rounded-bottom">
         {items && items.map((item, index) => (
           <Link
             key={index}
@@ -44,6 +45,7 @@ export function MainNav({ items, children }: MainNavProps) {
           </Link>
         ))}
       </nav>
+      {/* </div> */}
       <button
         className="flex items-center space-x-2 md:hidden"
         onClick={toggleMobileMenu}
