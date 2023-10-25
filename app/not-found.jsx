@@ -8,12 +8,12 @@ import { Button } from "@/components/ui/button";
 
 export default function NotFound() {
   return (
-    <div class="notfound p-6">
+    <div class="notfound p-6 flex gap-y-4 bg-zinc-950 flex-col items-center justify-center h-screen">
      
-      <h2 className="sub-gradient font-heading text-3xl pb-3 text-center">
+      <h2 className="sub-gradient font-heading text-4xl pb-3 text-center">
         404 - Page not found
       </h2>
-      <p className="font-heading  text-center pb-2 text-xl sm:text-6xl">
+      <p className="font-heading text-zinc-50 text-white  text-center pb-2 text-xl sm:text-6xl">
         The page you are looking for might have been removed, had its name
         changed, or is temporarily unavailable.
       </p>
