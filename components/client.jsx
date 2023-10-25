@@ -58,8 +58,8 @@ style={{
 
   >
     
-        {images.map(url => (
-          <SwiperSlide>
+        {images.map((url, index)=> (
+          <SwiperSlide key={index}>
             <img src={url} style={{
               maxWidth: '100%',
               maxHeight: '100%',
