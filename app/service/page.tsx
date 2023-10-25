@@ -16,18 +16,20 @@ export const metadata: Metadata = {
 function page() {
   return (
     <>
-    <title>FAQ</title>
+    <title>Services | Gaia</title>
     <div
-      className="min-h-screen animate-fade-in py-8"
+      className="min-h-screen animate-fade-in"
     >
-      <div className="md:ml-20 ml-10">
-        <MainNav items={marketingConfig.mainNav} />
-      </div>
+      <header className="container  z-40 bg-zinc-950 text-white border-2 border-blue-500 custom-rounded-bottom">
+          <div className="flex h-20 items-center justify-between py-6">
+            <MainNav items={marketingConfig.mainNav} />
+            
+          </div>
+        </header>
       <Nav />
-      <p className="text-5xl font-heading font-semibold sub-gradient mb-5 mt-10 text-center display-animation">
-        Frequently asked questions
+      <p className="text-5xl font-heading font-semibold  mb-5 mt-10 text-center text-zinc-950 ">
+        Services
       </p>
-      <FAQAccordion />
       <Questions />
       <SiteFooter />
     </div>

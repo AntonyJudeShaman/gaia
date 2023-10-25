@@ -14,9 +14,8 @@ function Questions() {
           </div>
 
           <p className=" md:text-lg text-md  text-center mt-5 mb-5 sub-gradient font-semibold">
-            Unlock the door to your dream project today! Our experts are here to
-            bring your vision to life. Reach out now and let&apos;s get started on
-            your design journey.
+            Reach out now and let&apos;s get started on
+            your journey.
           </p>
         </div>
       </div>

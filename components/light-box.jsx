@@ -122,9 +122,6 @@ export function LightBox({ className }) {
         </DialogTrigger>
         <DialogContent>
           <DialogHeader>
-            <DialogTitle className="text-center display-animation font-heading font-semibold text-3xl sub-gradient">
-              Book a Free Session
-            </DialogTitle>
           </DialogHeader>
           <form ref={form} onSubmit={handleSubmit}>
             <div className="grid gap-4 py-4">
