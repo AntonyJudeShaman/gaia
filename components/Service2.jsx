@@ -31,7 +31,7 @@ const Service2 = () => {
         </li>
         <li>
           Index Properties – Liquid Limit, Plastic Limit, Plasticity Index,
-          Shrinkage Limit: Assessing the soil's plasticity and behavior under
+          Shrinkage Limit: Assessing the soil&apos;s plasticity and behavior under
           different moisture conditions.
         </li>
         <li>
@@ -50,13 +50,13 @@ const Service2 = () => {
       </h2>
       <p className="mb-4">
         Engineering properties tests delve deeper into the mechanical behavior
-        of soil samples. They help in assessing the soil's suitability for
+        of soil samples. They help in assessing the soil&apos;s suitability for
         construction and engineering projects. These tests include:
       </p>
       <ul>
         <li>
           Strength Tests – Unconfined Compressive Strength, Direct Shear,
-          Triaxial (UU, CU, CD): Evaluating the soil's strength and shear
+          Triaxial (UU, CU, CD): Evaluating the soil&apos;s strength and shear
           resistance under different conditions.
         </li>
         <li>
@@ -65,7 +65,7 @@ const Service2 = () => {
           design.
         </li>
         <li>
-          Permeability: Measuring the soil's ability to transmit fluids, which
+          Permeability: Measuring the soil&apos;s ability to transmit fluids, which
           is crucial for drainage and groundwater flow analysis.
         </li>
         <li>
@@ -90,7 +90,7 @@ const Service2 = () => {
       </p>
       <ul>
         <li>
-          Water Absorption: Measuring the rock's ability to absorb water, which
+          Water Absorption: Measuring the rock&apos;s ability to absorb water, which
           can impact its durability and strength.
         </li>
         <li>
@@ -117,11 +117,11 @@ const Service2 = () => {
       </p>
       <ul>
         <li>
-          Point Load Index: Assessing the rock's strength and durability under
+          Point Load Index: Assessing the rock&apos;s strength and durability under
           point load conditions, which is valuable for rock mechanics studies.
         </li>
         <li>
-          Unconfined Compression with and without Modulus: Measuring the rock's
+          Unconfined Compression with and without Modulus: Measuring the rock&apos;s
           compressive strength under different conditions, including with and
           without modulus.
         </li>
@@ -136,8 +136,8 @@ const Service2 = () => {
           formations.
         </li>
         <li>
-          Poisson’s Ratio: Measuring Poisson's ratio, which relates to the
-          rock's elasticity and deformation characteristics.
+          Poisson’s Ratio: Measuring Poisson&apos;s ratio, which relates to the
+          rock&apos;s elasticity and deformation characteristics.
         </li>
         <li>
           High Pressure Triaxial Tests: Subjecting rock samples to high-pressure

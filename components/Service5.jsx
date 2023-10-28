@@ -7,7 +7,7 @@ export default function Service3() {
       <p>
         Geophysical surveys play a crucial role in various applications, providing valuable insights
         into subsurface conditions and geological features. These surveys help in characterizing the
-        earth's structure and are used in a wide range of fields. Some of the key applications include:
+        earth&apos;s structure and are used in a wide range of fields. Some of the key applications include:
       </p>
 
       <h2 className="text-2xl font-semibold mb-2 mt-3">Seismic Site Characterization</h2>
