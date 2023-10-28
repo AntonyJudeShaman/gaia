@@ -2,7 +2,7 @@ import React from "react";
 
 const Service2 = () => {
   return (
-    <div className="geotechnical-lab-tests">
+    <div style={{color:"white",paddingLeft:"10%"}} className="geotechnical-lab-tests">
       <h1>Geotechnical Laboratory Tests on Soil Samples</h1>
 
       <h2>Classification Tests</h2>

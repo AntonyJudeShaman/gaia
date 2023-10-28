@@ -1,8 +1,8 @@
 import React from "react";
 
-const Service1 = () => {
+export default function Service1(){
   return (
-    <div className="geotechnical-services">
+    <div style={{color:"white",paddingLeft:"10%"}} className="geotechnical-services">
       <h1>Geotechnical Investigations</h1>
 
       <h2>Trial Pits Exploration</h2>
@@ -187,4 +187,4 @@ const Service1 = () => {
   );
 };
 
-export default Service1;
+

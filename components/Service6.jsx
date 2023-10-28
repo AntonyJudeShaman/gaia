@@ -2,7 +2,7 @@ import React from "react";
 
 const Service6 = () => {
   return (
-    <div className="geo-consulting-services">
+    <div style={{color:"white",paddingLeft:"10%"}} className="geo-consulting-services">
       <h1>GeoConsulting Services</h1>
       <p>
         GeoConsulting offers a wide range of geotechnical and structural engineering services to meet

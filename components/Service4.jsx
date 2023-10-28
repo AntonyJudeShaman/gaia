@@ -2,7 +2,7 @@ import React from "react";
 
 const Service4 = () => {
   return (
-    <div className="geostructural-instrumentation">
+    <div style={{color:"white",paddingLeft:"10%"}} className="geostructural-instrumentation">
       <h1>Geostructural Instrumentation</h1>
       <p>
         Geostructural instrumentation involves the use of various specialized instruments to monitor and

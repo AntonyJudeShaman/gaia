@@ -2,7 +2,7 @@ import React from "react";
 
 const Service5 = () => {
   return (
-    <div className="geophysical-surveys-applications">
+    <div style={{color:"white",paddingLeft:"10%"}} className="geophysical-surveys-applications">
       <h1>Geophysical Surveys - Applications</h1>
       <p>
         Geophysical surveys play a crucial role in various applications, providing valuable insights

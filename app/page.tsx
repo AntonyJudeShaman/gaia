@@ -38,7 +38,6 @@ export default function HomeLayout() {
         <br/>
         <br/>
         <Aboutus />
-        <SwiperComponent/>
         <Nav />
         <SiteFooter />
       </div>

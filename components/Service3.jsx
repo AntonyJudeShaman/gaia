@@ -2,7 +2,7 @@ import React from "react";
 
 const Service3 = () => {
   return (
-    <div className="materials-lab-tests">
+    <div style={{color:"white",paddingLeft:"10%"}} className="materials-lab-tests">
       <h1>Materials Laboratory Tests on Bitumen Samples</h1>
 
       <h2>Bitumen Tests</h2>
