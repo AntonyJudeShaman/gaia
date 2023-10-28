@@ -79,7 +79,7 @@ export default function Service3() {
 
       <h2 className="text-2xl font-semibold mb-2 mt-3">Estimation of Dynamic Soil Parameters</h2>
       <p>
-        Geophysical surveys help estimate dynamic soil parameters, including Poisson Ratio, Young's
+        Geophysical surveys help estimate dynamic soil parameters, including Poisson Ratio, Young&apos;s
         Modulus, Bulk Modulus, and Shear Modulus. These parameters are crucial for analyzing soil
         behavior under dynamic loads, such as those from machinery or seismic events.
       </p>
