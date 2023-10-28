@@ -4,7 +4,7 @@ import {
   HiUser,
   HiViewColumns,
   HiEnvelope,
-  HiQuestionMarkCircle
+  HiUserGroup
 } from "react-icons/hi2";
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
@@ -14,7 +14,7 @@ import { motion } from "framer-motion";
 const links = [
   { name: "home", path: "/", icon: <HiHome /> },
   { name: "about", path: "#about-us", icon: <HiUser /> },
-  { name: "FAQ", path: "/frequently-asked-questions", icon: <HiQuestionMarkCircle /> },
+  { name: "Team", path: "/team", icon: <HiUserGroup /> },
   { name: "Services", path: "/service", icon: <HiViewColumns /> },
   { name: "contact", path: "/contact", icon: <HiEnvelope /> },
 ];

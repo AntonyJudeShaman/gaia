@@ -83,10 +83,10 @@ export function LightBox({ className }) {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_xdl6hsk",
-      "template_owtcpiw",
+      "",
+      "",
       form.current,
-      "6LeHj0SAeLt3fLezf"
+      ""
     );
   };
 
@@ -113,7 +113,7 @@ export function LightBox({ className }) {
         <DialogTrigger asChild>
           <Button
             variant="default"
-            className="border-2 border-green-300 border-black bg-gradient-to-b from-green-500 to-blue-600 hover:to-green-500 hover:from-blue-600  w-full"
+            className="border-2 font-heading text-xl text-black border-green-300 border-black bg-gradient-to-b from-green-500 to-blue-600 hover:to-green-500 hover:from-blue-600  w-full"
             size="lg"
             aria-label="contact us"
           >

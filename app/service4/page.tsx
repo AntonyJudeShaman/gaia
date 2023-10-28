@@ -3,6 +3,8 @@ import { Metadata } from "next";
 import Nav from "@/components/nav";
 import { MainNav } from "@/components/main-nav";
 import { marketingConfig } from "config/marketing";
+import Questions from "@/components/still-questions";
+import { SiteFooter } from "@/components/site-footer";
 
 export const metadata: Metadata = {
     title: "Geoconsulting",
@@ -22,6 +24,8 @@ function serv4()
             </header>
              <Nav />
             <Service4/>
+            <Questions/>
+            <SiteFooter/>
         </div>
     </>
     );

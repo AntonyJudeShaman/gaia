@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 function page() {
   return (
     <div
-        className="min-h-screen bg-white  animate-fade-in"
+        className="min-h-screen bg-gray-300  animate-fade-in"
       >
       
       <header className="container  z-40 bg-zinc-950 text-white border-2 border-blue-500 custom-rounded-bottom">
@@ -25,7 +25,7 @@ function page() {
           </div>
         </header>
         <Nav />
-        <p className="text-5xl font-heading font-semibold t mb-8 mt-10 text-center ">
+        <p className="text-5xl text-blue-500 font-heading font-semibold t mb-8 mt-10 text-center ">
           Contact Us
         </p>
         <Contactform className="" />

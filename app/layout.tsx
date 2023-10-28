@@ -45,7 +45,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       
       <body
         className={cn(
-          "min-h-screen bg-foreground text-black scroll-smooth font-sans antialiased",
+          "min-h-screen bg-gray-100  text-black scroll-smooth font-sans antialiased",
           fontSans.variable,
           fontHeading.variable,
           titleHeading.variable

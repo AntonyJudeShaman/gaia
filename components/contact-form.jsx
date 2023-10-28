@@ -75,10 +75,10 @@ export function Contactform({ className }) {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_xdl6hsk",
-      "template_owtcpiw",
+      "",
+      "",
       form.current,
-      "6LeHj0SAeLt3fLezf"
+      ""
     );
   };
 
@@ -100,7 +100,7 @@ export function Contactform({ className }) {
   };
 
   return (
-    <div className="mx-auto max-w-lg form-container bg-gray-900" aria-label="contact form">
+    <div className="mx-auto max-w-lg form-container bg-slate-200" aria-label="contact form">
       <form
         ref={form}
         onSubmit={handleSubmit}
@@ -111,7 +111,7 @@ export function Contactform({ className }) {
           padding: "0 20px",
         }}
       >
-        <div className="grid gap-4 py-4">
+        <div className="grid gap-4 py-4 ">
           <div
             className="grid grid-cols-1 md:grid-cols-2 items-center gap-4"
             
@@ -126,11 +126,11 @@ export function Contactform({ className }) {
             <Input
               id="name"
               name="name"
-              className="md:col-span-3 border-2 border-indigo-900 caret-blue-500 focus:caret-indigo-500"
+              className="md:col-span-3 border-2  border-indigo-900 caret-blue-500 focus:caret-indigo-500"
               placeholder="Enter your name"
               value={name}
               style={{
-                filter: "brightness(100%)",
+                filter: "brightness(60%)",
               }}
               onChange={(e) => setName(e.target.value)}
             />
@@ -158,7 +158,7 @@ export function Contactform({ className }) {
               placeholder="Enter your email"
               value={email}
               style={{
-                filter: "brightness(100%)",
+                filter: "brightness(60%)",
               }}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -183,7 +183,7 @@ export function Contactform({ className }) {
               id="phone"
               name="phone"
               style={{
-                filter: "brightness(100%)",
+                filter: "brightness(60%)",
               }}
               className="md:col-span-3  border-2 border-indigo-900 caret-blue-500 focus:caret-indigo-500"
               placeholder="Enter your phone number"
@@ -210,7 +210,7 @@ export function Contactform({ className }) {
             <Textarea
               id="message"
               style={{
-                filter: "brightness(100%)",
+                filter: "brightness(60%)",
               }}
               name="message"
               className="md:col-span-3  border-2 border-indigo-900 h-28 caret-blue-500 focus:caret-indigo-500"
