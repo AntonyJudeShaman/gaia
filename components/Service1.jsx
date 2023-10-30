@@ -4,6 +4,11 @@ export default function Service1() {
   return (
     <div className="text-gray-700 max-w-[78rem] p-6 mx-auto justify-center">
       <h1 className="text-4xl text-blue-500 text-center mt-10 font-bold mb-10">Geotechnical Investigations</h1>
+      <img
+          src="/s1s1.jpg"
+          alt="sample1"
+          className="w-1/6 h-40 object-cover object-center rounded-lg mb-4"
+        />
 
       <h2 className="text-2xl font-semibold mb-2">Trial Pits Exploration</h2>
       <p className="mb-4">

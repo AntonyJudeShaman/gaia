@@ -75,10 +75,10 @@ export function Contactform({ className }) {
     e.preventDefault();
 
     emailjs.sendForm(
-      "",
-      "",
+      "service_bk8oskp",
+      "template_v9bmsfi",
       form.current,
-      ""
+      "I6FAmKW2ysS6QCAdJ"
     );
   };
 

@@ -2,6 +2,7 @@
 import { LightBox } from "./light-box";
 import { motion, useScroll } from "framer-motion";
 import { Metadata } from "next";
+import homepagebg1 from "./homepagebg1.jpg"
 
 export const metadata: Metadata = {
   title: "Home",
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
 
 export default function IndexPage() {
   return (
-    <div className="">
+    <div style={{ backgroundImage: `url(${homepagebg1})` }} className="">
       <motion.section
         initial={{ y: "100%", opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -23,8 +24,11 @@ export default function IndexPage() {
           {/* <h1 className="font-semibold ">
             <Image src={logo} alt="Jude" className="h-15 w-20" />
           </h1> */}
-          GAIA GEOSCIENCE PVT LTD
+          GAIA GEOSCIENCE INDIA PVT LTD
           
+          </div>
+          <div className="container sub-font text-blue-500 text-3xl text-wrapper font-heading flex max-w-[64rem] flex-col items-center gap-4 text-center">
+          A one stop solution for all your Ground Engineering and Foundation Testing needs
           </div>
       </motion.section>
     </div>

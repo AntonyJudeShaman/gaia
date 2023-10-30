@@ -22,9 +22,9 @@ function Allservices() {
           />
 
           <Service
-            title="Field Density"
+            title="Geotechnical Laboratory"
             to="/service2"
-            description="Field density testing is essential for ensuring proper compaction of soil during construction. It involves measuring the density of compacted soil to determine if it meets specified standards."
+            description="Geotechnical Laboratory is essential for ensuring proper compaction of soil during construction. It involves measuring the density of compacted soil to determine if it meets specified standards."
           />
 
           <Service

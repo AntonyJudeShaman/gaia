@@ -29,6 +29,48 @@ export function SiteFooter({ className }: React.HTMLAttributes<HTMLElement>) {
           </p>
         </div>
         <div className="flex flex-row items-center space-x-4">
+
+        <Link
+            href=""
+            target="_blank"
+            aria-label="Phone"
+          >
+            <Button
+              variant="ghost"
+              className="h-8 w-8 px-1 "
+              aria-label="Phone"
+            >
+              <Icons.phone className="hover:text-blue-500" />
+            </Button>
+          </Link>
+
+          <Link
+            href=""
+            target="_blank"
+            aria-label="Email"
+          >
+            <Button
+              variant="ghost"
+              className="h-8 w-8 px-1 "
+              aria-label="Email"
+            >
+              <Icons.mail className="hover:text-blue-500" />
+            </Button>
+          </Link>
+
+          <Link
+            href=""
+            target="_blank"
+            aria-label="Location"
+          >
+            <Button
+              variant="ghost"
+              className="h-8 w-8 px-1 "
+              aria-label="Location"
+            >
+              <Icons.mappin className="hover:text-blue-500" />
+            </Button>
+          </Link>
           
           <Link
             href=""

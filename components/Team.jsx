@@ -1,6 +1,5 @@
 import React from "react";
 import TeamMember from "./teammember"; 
-
 export default function Team() {
   return (
     <div className="bg-blue-900 flex flex-col p-10 mb-5">

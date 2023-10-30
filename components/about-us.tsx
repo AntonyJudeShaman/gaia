@@ -13,6 +13,12 @@ export function Aboutus() {
             About Us
           </h2>
           <p className="max-w-[42rem] leading-normal text-2xl text-muted-foreground sm:text-lg sm:leading-8">
+            Gaia Geo Science India Pvt. Ltd. is a merger of field excellence of The Gradient (founded in 2002) and
+            technical prowess of Er. R. Vignesh M.E., (Ph.D) Soil Engineering formed in the year 2021 with a passion to
+            provide best in class integrated geotechnical engineering solutions to meet the demands of the different
+            industries at optimal cost.
+          </p> 
+          <p className="max-w-[42rem] leading-normal text-2xl text-muted-foreground sm:text-lg sm:leading-8">
             We have worked with some of the best brands in the industry.
           </p> 
           <SwiperComponent/>

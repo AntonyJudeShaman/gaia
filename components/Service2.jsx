@@ -7,6 +7,11 @@ const Service2 = () => {
       <h1 className="text-4xl text-blue-500 text-center mt-10 font-bold mb-10">
         Geotechnical Laboratory Tests on Soil Samples
       </h1>
+      <img
+          src="/s2s1.jpg"
+          alt="sample2"
+          className="w-1/6 h-40 object-cover object-center rounded-lg mb-4"
+        />
 
       <h2 className="text-2xl font-semibold mb-2">Classification Tests</h2>
       <p className="mb-4">

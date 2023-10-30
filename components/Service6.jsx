@@ -4,6 +4,11 @@ export default function Service6() {
   return (
     <div className="text-gray-700 max-w-[78rem] p-6 mx-auto justify-center">
       <h1 className="text-4xl text-blue-500 text-center mt-10 font-bold mb-10">GeoConsulting Services</h1>
+      <img
+          src="/s6s1.jpg"
+          alt="sample6"
+          className="w-1/6 h-40 object-cover object-center rounded-lg mb-4"
+        />
       <p>
         GeoConsulting offers a wide range of geotechnical and structural engineering services to meet
         the unique needs of construction and infrastructure projects. These services include:

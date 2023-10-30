@@ -25,8 +25,12 @@ import {
   Trash,
   Twitter,
   User,
+  Phone,
+  MapPin,
+  Mail,
   X,
   YoutubeIcon,
+  MapPinIcon,
 } from "lucide-react";
 
 
@@ -49,6 +53,9 @@ export const Icons = {
   add: Plus,
   warning: AlertTriangle,
   user: User,
+  phone:Phone,
+  mail:Mail,
+  mappin:MapPin,
   twitter: Twitter,
   arrowRight: ArrowRight,
   help: HelpCircle,

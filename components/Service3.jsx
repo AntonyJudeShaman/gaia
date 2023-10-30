@@ -6,6 +6,11 @@ const Service3 = () => {
       <h1 className="text-4xl text-blue-500 text-center mt-10 font-bold mb-10">
         Materials Laboratory Tests on Bitumen Samples
       </h1>
+      <img
+          src="/s3s1.jpg"
+          alt="sample3"
+          className="w-1/6 h-40 object-cover object-center rounded-lg mb-4"
+        />
       <h2 className="text-2xl font-semibold mb-2 mt-3">Bitumen Tests</h2>
       <p>
         Bitumen tests play a pivotal role in assessing the properties and

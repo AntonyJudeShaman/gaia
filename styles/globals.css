@@ -156,6 +156,9 @@
 .logo-font {
   font-family: "CustomFont";
 }
+.sub-font{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 .image-frame {
   position: relative;

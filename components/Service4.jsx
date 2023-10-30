@@ -4,6 +4,11 @@ const Service4 = () => {
   return (
     <div className="text-gray-700 max-w-[78rem] p-6 mx-auto justify-center">
  <h1 className="text-4xl text-blue-500 text-center mt-10 font-bold mb-10">Geostructural Instrumentation</h1>
+ <img
+          src="/s4s1.jpg"
+          alt="sample4"
+          className="w-1/6 h-40 object-cover object-center rounded-lg mb-4"
+        />
       <p>
         Geostructural instrumentation involves the use of various specialized instruments to monitor and
         measure the behavior of structures and the surrounding environment. These instruments are essential
